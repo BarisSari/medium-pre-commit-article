@@ -1,7 +1,7 @@
 import os
 
 from src.bar import a as bar_a
-from src.foo.a import example
+from src.foo.a import A, example
 
 
 def main():
@@ -13,6 +13,8 @@ def main():
     print(bar_a.example())
     print(example())
     print(bar_a.example_2())
+    cls = A("TEST")
+    cls.print()
 
 
 if __name__ == "__main__":
