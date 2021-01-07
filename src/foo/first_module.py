@@ -1,6 +1,5 @@
 def example():
-    return 'Hi from foo'
-
+    return "Hi from foo"
 
 
 class ExampleFooClass:
